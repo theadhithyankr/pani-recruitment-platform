@@ -14,7 +14,7 @@ Recruitment platform concept for matching candidates and hiring workflows.
 
 P.A.N.I Recruitment Platform is a recruitment project in the TheAdhithyanKR/pani-recruitment-platform repository. AI-powered recruitment platform built with React, Vite, and Supabase.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=package.json; Json=}.Path), and the commands below are taken from its scripts.
 
 ## Key Features
 
@@ -32,7 +32,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- apply-documents-migration.cjs
 |-- apply-migration.js
@@ -58,14 +58,14 @@ The README was written from the repository contents, including its manifest file
 |-- docs/DOCUMENT_MANAGEMENT_SYSTEM.md
 |-- docs/DYNAMIC_APPLICATIONS_UPDATE.md
 |-- docs/EMPLOYER_ONBOARDING_STORE.md
-`
+```
 
 ## Setup
 
-`ash
+```bash
 npm install
 npm run dev
-`
+```
 
 ## What This Project Demonstrates
 
